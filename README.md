@@ -62,5 +62,14 @@ This project is aimed at hospitals and medical institutions. It aims to provide 
 - Visualization Dashboard
 
 ## Roles and Responsibilites
+| Member | Role |
+|-------|---------|
+| Abdulrahman Waheed | Data Modeling |
+| Hoda Elkady | Data Curator |
+| Abdulrahman Hisham | Visualization Wizard |
+| Mohammad Abdulhakim | Data Analyst |
 
 ## Contact Information
+Abdulrahman Waheed: www.linkedin.com/in/abdulrahman-waheed
+
+Hoda Elkady: https://www.linkedin.com/in/hoda-elkady-6b80a4361
