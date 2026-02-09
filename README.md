@@ -49,12 +49,12 @@ This project is aimed at hospitals and medical institutions. It aims to provide 
 
 ## Project Timeline & Milestones
 
-| Phase | Key Activities | Duration |
-|---------|---------|---------|
-| Phase 1 | Building Data Model, Data Cleaning, and Preprocessing | 1 Week |
-| Phase 2 | Data Analysis | 1 Week |
-| Phase 3 | Forecasting | 1 Week |
-| Phase 4 |  Visualization Dashboard and Final Presentation | 1 Week | 
+| Key Activities | Duration |
+|----------|---------|
+| Building Data Model, Data Cleaning, and Preprocessing | 1 Week |
+| Data Analysis | 1 Week |
+| Forecasting | 1 Week |
+|  Visualization Dashboard and Final Presentation | 1 Week | 
 
 ## Deliverables
 
