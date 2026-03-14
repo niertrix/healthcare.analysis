@@ -33,7 +33,7 @@ This project is aimed at hospitals and medical institutions. It aims to provide 
 | Data Cleaning | Python |
 | Data Manipulation | SQL, Python, and Power Query |
 | Visualisation | Tableau, Power BI |
-| Version Control | Git, Github |
+| Version Control | Github |
 
 ## Methodology
 
