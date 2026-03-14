@@ -44,9 +44,11 @@ This project is aimed at hospitals and medical institutions. It aims to provide 
 
 ## Key Performance Indicators (KPIs)
 
--**Number of Staff**: The availablity of doctors on shift can be critical in emergency situations. We must make sure that there are enough available staff to handle incoming cases.
+-**Number of Patients**: The number of patients that regularly visit medical institutions.
 
--**Medicine Storage**: The availablitiy of medicine is also crucial. Most patients require immediate treatment and thus there must be a handful of available medicine on-site.
+-**Types of Cases**: The types of cases and diseases that patients complain about.
+
+-**Medical Presciptions**: The amount and types of medicine prescribed to patients.
 
 ## Project Timeline & Milestones
 
