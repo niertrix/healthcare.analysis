@@ -22,25 +22,44 @@ This project is aimed at hospitals and medical institutions. It aims to provide 
 
 ## Dataset Overview
 
-- **Source**: *TBA*
-- **Volume**: *TBA*
-- **Attributes**: *TBA*
+- **Source**: [SyntheaMass Data](https://synthea.mitre.org/downloads)
+- **Volume**:
+
+| Table | Size |
+|------|-------|
+| allergies | 15 columns, 136 rows |
+| careplans | 9 columns, 401 rows |
+| claims | 31 columns, 14,176 rows |
+| claims_transactions | 33 columns, 121,448 rows |
+| conditions | 7 columns, 4,023 rows |
+| devices | 7 columns, 622 rows |
+| encounters | 15 columns, 8,316 rows |
+| imaging_studies | 13 columns, 72,757 rows |
+| immunizations | 6 columns, 1,619 rows |
+| medications | 13 columns, 5,860 rows |
+| observations | 9 colummns, 86,634 rows |
+| organizations | 11 columns, 274 rows |
+| patients | 28 columns, 117 rows |
+| payer_transitions | 8 columns, 4,811 rows |
+| payers | 22 columns, 10 rows |
+| procedure | 10 columns, 20,322 rows |
+| providers | 13 columns, 274 rows |
+| supplies | 6 columns, 2,918 rows |
 
 ## Technologies and Tools
 
 | Task | Tools |
 |-------------------------|---------------|
-| Data Cleaning | Python |
-| Data Manipulation | SQL, Python, and Power Query |
-| Visualisation | Tableau, Power BI |
+| Data Cleaning | Power Query |
+| Data Manipulation | Python, Power Query |
+| Visualisation | Tableau |
 | Version Control | Github |
 
 ## Methodology
 
 1. Clean the collected data and build a data model using it.
 2. Analyse the data model and create the needed measures.
-3. Forecast the data in order to predict future cases.
-4.  Visualize the data using Tableau dashboards.
+3.  Visualize the data using Tableau dashboards.
 
 ## Key Performance Indicators (KPIs)
 
