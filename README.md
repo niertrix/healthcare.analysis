@@ -23,7 +23,9 @@ This project is aimed at hospitals and medical institutions. It aims to provide 
 ## Dataset Overview
 
 - **Source**: [SyntheaMass Data](https://synthea.mitre.org/downloads)
+
 [Download the data here](https://drive.google.com/drive/folders/1L0oggg6ga9_2YRWRXngPzDqDXevyeOFx?usp=drive_link)
+
 - **Volume**:
 
 | Table | Size |
