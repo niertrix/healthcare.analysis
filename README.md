@@ -98,7 +98,7 @@ This project is aimed at hospitals and medical institutions. It aims to provide 
 
 | Memeber | Linkedin profile|
 |-----------|---------|
-|Abdulrahman Waheed | www.linkedin.com/in/abdulrahman-waheed|
+|Abdulrahman Waheed | https://www.linkedin.com/in/abdulrahman-waheed|
 |Hoda Elkady | https://www.linkedin.com/in/hoda-elkady-6b80a4361|
 |Abdulrahman Hisham | https://www.linkedin.com/in/abdulrahman-hisham-b0a55539b|
 |Mohammad Abdulhakim | https://www.linkedin.com/in/mohamed-hantour-923925388|
