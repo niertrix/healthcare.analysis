@@ -53,7 +53,7 @@ This project is aimed at hospitals and medical institutions. It aims to provide 
 
 | Task | Tools |
 |-------------------------|---------------|
-| Data Cleaning | Power Query |
+| Data Cleaning | Python(pandas, numpy) |
 | Data Manipulation | Python, Power Query |
 | Visualisation | Tableau |
 | Version Control | Github |
@@ -76,7 +76,7 @@ This project is aimed at hospitals and medical institutions. It aims to provide 
 
 | Key Activities | Duration |
 |----------|---------|
-| Building Data Model, Data Cleaning, and Preprocessing | 1 Week |
+| Building Data Model, Data Cleaning, and Preprocessing | 4 Days |
 | Data Analysis | 1 Week |
 | Forecasting | 1 Week |
 |  Visualization Dashboard and Final Presentation | 1 Week | 
