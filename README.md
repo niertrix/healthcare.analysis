@@ -24,7 +24,7 @@ This project is aimed at hospitals and medical institutions. It aims to provide 
 
 - **Source**: [SyntheaMass Data](https://synthea.mitre.org/downloads)
 
-[Download the data here](https://drive.google.com/file/d/1lypRcYVp3UZPE7EhqjfDy5OQNtR9Xzvf/view?usp=drive_link)
+[Download the data here](https://eli.it.tabdigital.cloud/s/7k3qNYx9DAeyxEc)
 
 - **Volume**:
 
