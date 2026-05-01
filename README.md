@@ -22,10 +22,9 @@ This project is aimed at hospitals and medical institutions. It aims to provide 
 
 ## Dataset Overview
 
-- **Source**: [SyntheaMass Data](https://synthea.mitre.org/downloads)
+- **Source**: [SyntheticMass Dataset](https://synthea.mitre.org/downloads)
 
-![Static Badge](https://img.shields.io/badge/Download%20the%20dataset%20directly-E73520?color=E75320&link=https%3A%2F%2Fdrive.google.com%2Ffile%2Fd%2F1ftg29EBSeS-xXuBHVKoC3_7pJtzozdeV%2Fview%3Fusp%3Dsharing)
-
+ 
 - **Volume**:
 
 | Table | Size |
