@@ -9,9 +9,9 @@ This project is aimed at hospitals and medical institutions. It aims to provide 
 3. [Technologies and Tools](#technologies-and-tools)
 4. [Methodology](#methodology)
 5. [Key Performance Indicators (KPIs)](key-performance-indicators-(kpis))
-6. [Project Timeline & Milestones](#project-timeline-&-milestones)
+6. [Project Timeline & Milestones](#project-timeline--milestones)
 7. [Deliverables](#deliverables)
-8. [Roles & Responsibilities](#roles-&-responsibilities)
+8. [Roles & Responsibilities](#roles--responsibilities)
 9. [Contact Information](#contact-information)
 
 ## Project Objectives
@@ -78,7 +78,6 @@ This project is aimed at hospitals and medical institutions. It aims to provide 
 |----------|---------|
 | Building Data Model, Data Cleaning, and Preprocessing | 4 Days |
 | Data Analysis | 1 Week |
-| Forecasting | 1 Week |
 |  Visualization Dashboard and Final Presentation | 1 Week | 
 
 ## Deliverables
