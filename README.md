@@ -4,7 +4,7 @@ This project is aimed at hospitals and medical institutions. It aims to provide 
 
 ## Table of Contents
 
-1. Project Objectives
+1. [Project Objectives](#project-objectives)
 2. Dataset Overview
 3. Technologies and Tools
 4. Methodology
@@ -12,7 +12,7 @@ This project is aimed at hospitals and medical institutions. It aims to provide 
 6. Project Timeline & Milestones
 7. Deliverables
 8. Roles & Responsibilities
-9. Contact Information
+9. [Contact Information](#contact-information)
 
 ## Project Objectives
 
