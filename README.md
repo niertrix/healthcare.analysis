@@ -8,7 +8,7 @@ This project is aimed at hospitals and medical institutions. It aims to provide 
 2. [Dataset Overview](#dataset-overview)
 3. [Technologies and Tools](#technologies-and-tools)
 4. [Methodology](#methodology)
-5. [Key Performance Indicators (KPIs)](key-performance-indicators-kpis)
+5. [Key Performance Indicators (KPIs)](#key-performance-indicators-kpis)
 6. [Project Timeline & Milestones](#project-timeline--milestones)
 7. [Deliverables](#deliverables)
 8. [Roles & Responsibilities](#roles--responsibilities)
