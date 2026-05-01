@@ -5,13 +5,13 @@ This project is aimed at hospitals and medical institutions. It aims to provide 
 ## Table of Contents
 
 1. [Project Objectives](#project-objectives)
-2. Dataset Overview
-3. Technologies and Tools
-4. Methodology
-5. Key Performance Indicators (KPIs)
-6. Project Timeline & Milestones
-7. Deliverables
-8. Roles & Responsibilities
+2. [Dataset Overview](#dataset-overview)
+3. [Technologies and Tools](#technologies-and-tools)
+4. [Methodology](#methodology)
+5. [Key Performance Indicators (KPIs)](key-performance-indicators-(kpis))
+6. [Project Timeline & Milestones](#project-timeline-and-milestones)
+7. [Deliverables](#deliverables)
+8. [Roles & Responsibilities](#roles-and-responsibilities)
 9. [Contact Information](#contact-information)
 
 ## Project Objectives
