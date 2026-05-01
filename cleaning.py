@@ -25,16 +25,12 @@ allergies['REACTION2'].astype('category')
 allergies['CATEGORY'].astype('category')
 allergies['SEVERITY1'].astype('category')
 allergies['SEVERITY2'].astype('category')
-# print the output
-allergies.head(10)
 #--------------------------------------------------------------#
 careplans = pd.read_csv("synthea/careplans.csv")
 # replace the null values in STOP with the current date
 careplans['STOP'] = careplans['STOP'].fillna(datetime.now().date())
 # drop rows where REASONCODE or REASONDESCRIPTION are null
 careplans = careplans.dropna(subset=['REASONCODE', 'REASONDESCRIPTION'])
-# print the output
-careplans.head(10)
 #--------------------------------------------------------------#
 claims = pd.read_csv("synthea/claims.csv")
 # drop DIAGNOSIS5, DIAGNOSIS6, DIAGNOSIS7, DIAGNOSIS8, REFERRINGPROVIDERID, SECONDARYPATIENTINSURANCEID, OUTSTANDING1, OUTSTANDING2, OUTSTANDINGP because they are mostly null and STATUS1, STATUS2, and STATUSP columns because they are identical to each other and not useful for analysis
@@ -53,8 +49,6 @@ claims['PATIENTDEPARTMENTID'].astype('category')
 claims['SUPERVISINGPROVIDERID'].astype('category')
 claims['HEALTHCARECLAIMTYPEID2'].astype('category')
 claims['HEALTHCARECLAIMTYPEID1'].astype('category')
-# print the output
-claims.head(10)
 #--------------------------------------------------------------#
 claims_transactions = pd.read_csv("synthea/claims_transactions.csv")
 # drop rows where AMOUNT, TRANSFERTYPE are null
@@ -79,8 +73,6 @@ claims_transactions['DIAGNOSISREF2'].astype('category')
 claims_transactions['DIAGNOSISREF3'].astype('category')
 claims_transactions['DIAGNOSISREF4'].astype('category')
 claims_transactions['DEPARTMENTID'].astype('category')
-# print the output
-claims_transactions.head(10)
 #--------------------------------------------------------------#
 conditions = pd.read_csv("synthea/conditions.csv")
 #drop the system column because it has only one value which is a url for the SNOMED CT code
@@ -92,8 +84,6 @@ conditions['STOP'] = pd.to_datetime(conditions['STOP']).dt.date
 conditions = conditions.fillna(datetime.now().date())
 # categorize some columns
 conditions['DESCRIPTION'].astype('category')
-# print the output
-conditions.head(10)
 #--------------------------------------------------------------#
 devices = pd.read_csv("synthea/devices.csv")
 #change START and STOP columns to datetime
@@ -101,8 +91,6 @@ devices['START'] = pd.to_datetime(devices['START']).dt.date
 devices['STOP'] = pd.to_datetime(devices['STOP']).dt.date
 # replace the values in STOP with the current date if they are null
 devices = devices.fillna(datetime.now().date())
-# print the output
-devices.head(10)
 #--------------------------------------------------------------#
 encounters = pd.read_csv("synthea/encounters.csv")
 # change START and STOP clumns to datetime
@@ -114,8 +102,6 @@ encounters = encounters.dropna(subset=['REASONCODE', 'REASONDESCRIPTION'], how='
 encounters['ENCOUNTERCLASS'].astype('category')
 encounters['DESCRIPTION'].astype('category')
 encounters['REASONDESCRIPTION'].astype('category')
-# print the output
-encounters.head(10)
 #--------------------------------------------------------------#
 imaging_studies = pd.read_csv("synthea/imaging_studies.csv")
 # change DATE column to datetime
@@ -128,8 +114,6 @@ imaging_studies['BODYSITE_DESCRIPTION'].astype('category')
 imaging_studies['MODALITY_CODE'].astype('category')
 imaging_studies['MODALITY_DESCRIPTION'].astype('category')
 imaging_studies['PROCEDURE_CODE'].astype('category')
-# print the output
-imaging_studies.head(10)
 #--------------------------------------------------------------#
 immunizations = pd.read_csv("synthea/immunizations.csv")
 # change DATE column to datetime
@@ -137,8 +121,6 @@ immunizations['DATE'] = pd.to_datetime(immunizations['DATE']).dt.date
 # cateogrize some columnd
 immunizations['CODE'].astype('category')
 immunizations['DESCRIPTION'].astype('category')
-# print the output
-immunizations.head(10)
 #--------------------------------------------------------------#
 medications = pd.read_csv("synthea/medications.csv")
 # change START and STOP columns to datetime
@@ -153,8 +135,6 @@ medications['CODE'].astype('category')
 medications['DESCRIPTION'].astype('category')
 medications['REASONCODE'].astype('category')
 medications['REASONDESCRIPTION'].astype('category')
-# print the output
-medications.head(10)
 #--------------------------------------------------------------#
 observations = pd.read_csv("synthea/observations.csv")
 #change DATE column to datetime
@@ -165,22 +145,16 @@ observations['CODE'].astype('category')
 observations['DESCRIPTION'].astype('category')
 observations['TYPE'].astype('category')
 observations['UNITS'].astype('category')
-# print the output
-observations.head(10)
 #--------------------------------------------------------------#
 organizations = pd.read_csv("synthea/organizations.csv")
 # all values in REVENUE column are zero and the values in STATE column are the same, so we can drop them
 organizations.drop(columns=['REVENUE', 'STATE'], inplace=True)
-# print the output
-organizations.head(10)
 #--------------------------------------------------------------#
 patients = pd.read_csv("synthea/patients.csv")
 # drop SUFFIX and MAIDEN columns because they are mostly null, FIPS and DEATHDATE columns because they are not useful, and STATE columns because it only contains Massauchets as a value
 patients.drop(columns=['SUFFIX', 'MAIDEN', 'FIPS', 'STATE', 'DEATHDATE'], inplace=True)
 # replace the null values in MARITAL with U standing for unknown
 patients['MARITAL'] = patients['MARITAL'].fillna('U')
-# print the output
-patients.head(10)
 #--------------------------------------------------------------#
 payer_transitions = pd.read_csv("synthea/payer_transitions.csv")
 # reaplce the null values in PLAN_OWNERSHIP, OWNER_NAME, and SECONDARY_PAYER
@@ -197,16 +171,12 @@ payer_transitions.drop(columns=['MEMBERID'], inplace=True)
 payer_transitions['SECONDARY_PAYER'].astype('category')
 payer_transitions['PLAN_OWNERSHIP'].astype('category')
 payer_transitions['OWNER_NAME'].astype('category')
-# print the output
-payer_transitions.head(10)
 #--------------------------------------------------------------#
 payers = pd.read_csv("synthea/payers.csv")
 # drop the ADDRESS, CITY, STATE_HEADQUARTERED, ZIP, and PHONE columns because they are empty
 payers.drop(columns=['ADDRESS', 'CITY', 'STATE_HEADQUARTERED', 'ZIP', 'PHONE'], inplace=True)
 # categorize some columns
 payers['OWNERSHIP'].astype('category')
-# print the output
-payers.head(10)
 #--------------------------------------------------------------#
 procedures = pd.read_csv("synthea/procedures.csv")
 #change START and STOP to datetime
@@ -217,22 +187,16 @@ procedures.drop(columns=['SYSTEM'], inplace=True)
 # replace the null values in REASONCODE and REASON DESCRIPTION with Unknown
 procedures['REASONCODE'] = procedures['REASONCODE'].fillna('Unknown')
 procedures['REASONDESCRIPTION'] = procedures['REASONDESCRIPTION'].fillna('Unknown')
-# print the output
-procedures.head(10)
 #--------------------------------------------------------------#
 providers = pd.read_csv("synthea/providers.csv")
 # remove SPECIALITY, PRCOEDURES, and STATE columns which all contain repeted values
 providers.drop(columns=['SPECIALITY', 'PROCEDURES', 'STATE'], inplace=True)
 # categorize some columns
 providers['GENDER'].astype('category')
-# print the output
-providers.head(10)
 #--------------------------------------------------------------#
 supplies = pd.read_csv("synthea/supplies.csv")
 # change the DATE column to datetime
 supplies['DATE'] = pd.to_datetime(supplies['DATE']).dt.date
-# print the output
-supplies.head(10)
 #--------------------------------------------------------------#
 # export the final versions as csv files
 allergies.to_csv('allergies.csv')
