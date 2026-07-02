@@ -54,14 +54,14 @@ This project is aimed at hospitals and medical institutions. It aims to provide 
 |-------------------------|---------------|
 | Data Cleaning | Python(pandas, numpy) |
 | Data Manipulation | Python, Power Query |
-| Visualisation | Tableau |
+| Visualisation | Power BI |
 | Version Control | Github |
 
 ## Methodology
 
 1. Clean the collected data and build a data model using it.
 2. Analyse the data model and create the needed measures.
-3.  Visualize the data using Tableau dashboards.
+3.  Visualize the data using Power BI.
 
 ## Key Performance Indicators (KPIs)
 
