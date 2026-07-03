@@ -61,7 +61,7 @@ This project is aimed at hospitals and medical institutions. It aims to provide 
 
 1. Clean the collected data and build a data model using it.
 2. Analyse the data model and create the needed measures.
-3.  Visualize the data using Power BI.
+3. Visualize the data using Power BI.
 
 ## Key Performance Indicators (KPIs)
 
@@ -77,26 +77,26 @@ This project is aimed at hospitals and medical institutions. It aims to provide 
 |----------|---------|
 | Building Data Model, Data Cleaning, and Preprocessing | 4 Days |
 | Data Analysis | 1 Week |
-|  Visualization Dashboard and Final Presentation | 1 Week | 
+| Visualization Dashboard and Final Presentation | 1 Week | 
 
 ## Deliverables
 
-- Fully developed healthcare analysis system.
-- Visualization Dashboard
+- Full analysis of the dataset.
+- Visualization Dashboard in Power BI.
 
 ## Roles and Responsibilites
 | Member | Role |
 |-------|---------|
-| Abdulrahman Waheed | Data Modeling |
-| Hoda Elkady | Data Curator |
+| Abdulrahman Waheed | Data Cleaning |
+| Hoda Elkady | Data Modeling |
 | Abdulrahman Hisham | Visualization Wizard |
-| Mohammad Abdulhakim | Data Analyst |
+| Mohammad Abdulhakim | Data Curator |
 
 ## Contact Information
 
 | Memeber | Linkedin profile|
 |-----------|---------|
-|Abdulrahman Waheed | https://www.linkedin.com/in/abdulrahman-waheed|
-|Hoda Elkady | https://www.linkedin.com/in/hoda-elkady-6b80a4361|
-|Abdulrahman Hisham | https://www.linkedin.com/in/abdulrahman-hisham-b0a55539b|
-|Mohammad Abdulhakim | https://www.linkedin.com/in/mohamed-hantour-923925388|
+| Abdulrahman Waheed | https://www.linkedin.com/in/abdulrahman-waheed|
+| Hoda Elkady | https://www.linkedin.com/in/hoda-elkady-6b80a4361|
+| Abdulrahman Hisham | https://www.linkedin.com/in/abdulrahman-hisham-b0a55539b|
+| Mohammad Abdulhakim | https://www.linkedin.com/in/mohamed-hantour-923925388|
