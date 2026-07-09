@@ -1,6 +1,6 @@
 ## Project Summary
 
-This project is aimed at hospitals and medical institutions. It aims to provide a comprehensive and straightforward way to summarise and analyse the records of medical institutions, including details like patient information, medicine availability, and staff shifts.
+This is the graduation project for the Digital Egypt Pioneers Initiative's Outliers team. The project is a professional analysis of the SyntheticMass dataset comprised of 18 tables that include various information from hospitals in Massachusetts. The project involves a full analysis starting from cleaning the recieved data using python, creating a data model and calculating various measures followed by creating a visual dashboard in Power BI.
 
 ## Table of Contents
 
@@ -17,7 +17,8 @@ This project is aimed at hospitals and medical institutions. It aims to provide 
 ## Project Objectives
 
 - Analyse the number and frequency of patients visitng medical institutions.
-- Determine the most common types of cases based on trends in data
+- Determine the most common types of conditions based on trends in data.
+- Determine the most carried out procedures 
 - Create a comprehensive dashboard to visually represent the collected data
 
 ## Dataset Overview
@@ -54,8 +55,9 @@ This project is aimed at hospitals and medical institutions. It aims to provide 
 |-------------------------|---------------|
 | Data Cleaning | Python(pandas, numpy) |
 | Data Manipulation | Python, Power Query |
+| Data Modeling | Power BI |
 | Visualisation | Power BI |
-| Version Control | Github |
+| Version Control | Git, GitHub |
 
 ## Methodology
 
