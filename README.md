@@ -11,7 +11,7 @@ This project is aimed at hospitals and medical institutions. It aims to provide 
 5. [KPIs & Measures](#kpis-and-measures)
 6. [Project Timeline & Milestones](#project-timeline--milestones)
 7. [Deliverables](#deliverables)
-8. [Roles & Responsibilites](#roles-and-responsibilities)
+8. [Roles & Responsibilities](#roles-and-responsibilities)
 9. [Contact Information](#contact-information)
 
 ## Project Objectives
@@ -218,7 +218,7 @@ Due to the dataset's large size and interconnected nature we were able to calcul
 - Full analysis of the dataset.
 - Visualization Dashboard in Power BI.
 
-## Roles & Responsibilites
+## Roles & Responsibilities
 | Member | Role |
 |-------|---------|
 | Abdulrahman Waheed | Data Cleaning |
