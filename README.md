@@ -53,7 +53,7 @@ This is the graduation project for the Digital Egypt Pioneers Initiative's Outli
 
 | Task | Tools |
 |-------------------------|---------------|
-| Data Cleaning | Python(pandas, numpy) |
+| Data Cleaning | Python (pandas, numpy) |
 | Data Manipulation | Python, Power Query |
 | Data Modeling | Power BI |
 | Visualisation | Power BI |
@@ -211,14 +211,15 @@ Due to the dataset's large size and interconnected nature we were able to calcul
 
 | Key Activities | Duration |
 |----------|---------|
-| Building Data Model, Data Cleaning, and Preprocessing | 4 Days |
-| Data Analysis | 1 Week |
-| Visualization Dashboard and Final Presentation | 1 Week | 
+| Data Cleaning and Preprocessing | 4 Days |
+| Data Modeling | 1 Week |
+| Visualization Dashboard and Final Presentation | 2 Weeks | 
 
 ## Deliverables
 
-- Full analysis of the dataset.
-- Visualization Dashboard in Power BI.
+- Python script that delivers a cleaned version of the synthea dataset.
+- A pbix file that includes the data model and visualization dashboard.
+- A PDF presentation of the process and insights regarding everything about the project.
 
 ## Roles & Responsibilities
 | Member | Role |
@@ -230,9 +231,9 @@ Due to the dataset's large size and interconnected nature we were able to calcul
 
 ## Contact Information
 
-| Memeber | Linkedin profile|
+| Memeber | Linkedin profile |
 |-----------|---------|
-| Abdulrahman Waheed | https://www.linkedin.com/in/abdulrahman-waheed|
-| Hoda Elkady | https://www.linkedin.com/in/hoda-elkady-6b80a4361|
-| Abdulrahman Hisham | https://www.linkedin.com/in/abdulrahman-hisham-b0a55539b|
-| Mohammad Abdulhakim | https://www.linkedin.com/in/mohamed-hantour-923925388|
+| Abdulrahman Waheed | https://www.linkedin.com/in/abdulrahman-waheed| 
+| Hoda Elkady | https://www.linkedin.com/in/hoda-elkady-6b80a4361 |
+| Abdulrahman Hisham | https://www.linkedin.com/in/abdulrahman-hisham-b0a55539b |
+| Mohammad Abdulhakim | https://www.linkedin.com/in/mohamed-hantour-923925388 |
