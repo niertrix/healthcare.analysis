@@ -8,10 +8,10 @@ This project is aimed at hospitals and medical institutions. It aims to provide 
 2. [Dataset Overview](#dataset-overview)
 3. [Technologies and Tools](#technologies-and-tools)
 4. [Methodology](#methodology)
-5. [Key Performance Indicators (KPIs)](#key-performance-indicators-kpis)
+5. [KPIs & Measures](#kpis-and-measures)
 6. [Project Timeline & Milestones](#project-timeline--milestones)
 7. [Deliverables](#deliverables)
-8. [Roles & Responsibilities](#roles-responsibilities)
+8. [Roles & Responsibilities](#roles-and-responsibilities)
 9. [Contact Information](#contact-information)
 
 ## Project Objectives
@@ -63,13 +63,147 @@ This project is aimed at hospitals and medical institutions. It aims to provide 
 2. Analyse the data model and create the needed measures.
 3. Visualize the data using Power BI.
 
-## Key Performance Indicators (KPIs)
+## KPIs and Measures
 
--**Number of Patients**: The number of patients that regularly visit medical institutions.
+Due to the dataset's large size and interconnected nature we were able to calculate a variety of measures which we grouped into a number of categories for easier navigation.
+<table>
+<tr>
+<td valign=top>
+ 
+| Patients & Demographics |
+| ----------------------- |
+| Total Patients |
+| Average Income |
+| Total Patient Cities |
+| Unique Patients Visited |
+| Unique Patients Observed |
+| Total Healthcare Expenses |
+| Average Health Coverage |
+| Unique Patients Imaged |
+| Unique Patients with Claims |
+| Unique Patients with Conditions |
+| Total Patients with Transitions |
+</td>
 
--**Types of Cases**: The types of cases and diseases that patients complain about.
+<td valign=top>
 
--**Medical Presciptions**: The amount and types of medicine prescribed to patients.
+| Providers & Organizations |
+| ------------------------- |
+| Total Providers |
+| Total Provider Encounters |
+| Total Cities Covered |
+| Male Encounters |
+| Female Encounters |
+| Average Provider Encounters |
+| Total Organizations |
+| Total Cities |
+| Total Utilization |
+| Avg Utilization |
+| Max Utilization |
+| Unique Providers |
+ 
+</td>
+
+<td valign=top>
+ 
+| Payers & Covreage |
+| ----------------- |
+| Total Revenue |
+| Total Payers Count |
+| Total Amount Covered |
+| Total Amount Uncovered |
+| Total Uncovered Expenses |
+| Total Covered Encounters |
+| Total Covered Medications |
+| Total Unique Customers |
+| Total Transitions |
+| Active Transitions |
+| Self Paid Transitions |
+| Transitions This Year |
+| Patients with Multiple Transitions |
+| Avg Coverage Duration (Days) |
+| Uninsured Rate |
+
+</td>
+</tr>
+</table>
+
+<table>
+<tr>
+<td valign=top>
+ 
+| Clinical & Diagnosis |
+|----------------------|
+| Total Encounters |
+| Avg Cost Per Encounter |
+| Avg Encounter Duration in Minutes |
+| Emergency Encounters |
+| Insurance Coverage Rate |
+| Total Base Cost |
+| Total Insurance Covered |
+| Total Out-of-Pocket Cost |
+| Total Conditions |
+| Active Conditions |
+| Total Unique Diseases |
+| Avg Conditions Per Encounter |
+| Avg Conditions Per Patient |
+| Total Encounters with Conditions |
+| Total Procedures |
+| Total Procedure Cost |
+| Average Cost per Procedure |
+| Avg Procedures per Patient |
+| Total Unique Patients |
+| Procedures Cost LY |
+| Total Observations Count |
+| Vital Signs Observations |
+| Laboratory Observations |
+| Laboratory Observations Percentage |
+| Avg Systolic New |
+| Avg Diastolic New |
+| Average Body Weight |
+| Total Allergies |
+| Unique Patients with Allergies |
+| Allergy Density |
+| Average BMI New |
+| Total Imaging Studies |
+| Avg Studies Per Patient |
+| CT Scans Count |
+| CT Scan Rate |
+| Thoracic Imaging Count |
+| Modality Contribution |
+| Severe Allergies Count |
+| Severe Allergies Rate |
+| Moderate Allergies Count |
+| Current Month Allergies |
+| Allergies Previous Month |
+ 
+</td>
+
+<td valign=top>
+ 
+| Financial & Costs |
+| ----------------- |
+| Number of Transactions |
+| Transactions Sum |
+| Transfers Sum |
+| Total Immunization Base Cost |
+| Average Immunization Base Cost |
+| Total Dispenses |
+| Total Medications Cost |
+| Average Cost Per Medication |
+| Total Payer Coverage |
+| Medication Insurance Coverage Rate |
+| Out-of-Pocket Rate |
+| Total Claims Count |
+| Insured Claims Count |
+| Insurance Coverage Claims Rate |
+| Claims Distribution |
+| Total Supplies |
+| Total Supply Records |
+
+</td>
+</tr>
+</table>
 
 ## Project Timeline & Milestones
 
